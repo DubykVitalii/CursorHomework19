@@ -50,7 +50,7 @@ public class CursorHomework19Application implements CommandLineRunner {
         System.out.println("Entity created successfully...");
 
         System.out.println("All laptops:");
-        System.out.println(laptopService.getAlllaptops().toString());
+        System.out.println(laptopService.getAlllaptops());
         System.out.println("All sorted laptops by name manufacturer:");
         System.out.println(laptopService.getAllSortedNameManufactures());
         System.out.println("Laptops with memory greater than 16:");
