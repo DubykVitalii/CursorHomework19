@@ -24,7 +24,7 @@ public class LaptopService {
         return laptopRepositiry.findLaptopByOrderByManufacturerDesc();
     }
 
-    public List<Laptop> getLaptopsWithMemoryGreaterThan() {
+    public List<Laptop> getLaptopsByMemory() {
         return laptopRepositiry.findLaptopByMemoryGreaterThanEqual(16);
     }
 

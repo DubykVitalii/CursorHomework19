@@ -54,7 +54,7 @@ public class CursorHomework19Application implements CommandLineRunner {
         System.out.println("All sorted laptops by name manufacturer:");
         System.out.println(laptopService.getAllSortedNameManufactures());
         System.out.println("Laptops with memory greater than 16:");
-        System.out.println(laptopService.getLaptopsWithMemoryGreaterThan());
+        System.out.println(laptopService.getLaptopsByMemory());
         System.out.println("Laptops used:");
         System.out.println(laptopService.getLaptopsUsed());
 
